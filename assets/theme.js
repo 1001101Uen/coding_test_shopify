@@ -8267,6 +8267,7 @@ theme.Product = (function() {
         });
     },
 
+
     _handleButtonLoadingState: function(isLoading) {
       if (isLoading) {
         this.addToCart.setAttribute('aria-disabled', true);
