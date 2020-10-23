@@ -41,5 +41,15 @@
   <main role="main">
     {{ content_for_layout }}
   </main>
+  
+  {% schema %}
+    {
+      "type": "textarea",
+      "id": “coding_test_message”,
+      "default": "Random Title",
+      "label": "CodingTest"
+    }
+  {% endschema %}
+
 </body>
 </html>
